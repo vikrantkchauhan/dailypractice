@@ -1,0 +1,22 @@
+/**
+ * Created for learning purpose.
+ */
+package com.vikrant.inheritence;
+
+/**
+ * @author ${Vikrant Kumar Chauhan}
+ *
+ * ${{date:Mar 9, 2024};{time:7:45:34 PM};
+{package_name:DailyPractice;{$Thanks, Vikrant}
+ */
+public class SingleInheritence {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
