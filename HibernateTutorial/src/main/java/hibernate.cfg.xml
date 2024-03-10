@@ -12,11 +12,13 @@ nate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configur
 		<property name="show_sql">true</property>
 		<property name="format_sql">false</property>
 		<!--Telling the hidernate to map this object to db-->
-		<mapping class ="com.vikrant.basic.Employee"/>
+		<!--<mapping class ="com.vikrant.basic.Employee"/>
 		<mapping class ="com.vikrant.basic.Address" />
 		<mapping class ="com.vikrant.embeddable.Student" />
 		<mapping  class ="com.vikrant.onetoone.Answers"/>
-		<mapping  class ="com.vikrant.onetoone.Questions"/>
+		<mapping  class ="com.vikrant.onetoone.Questions"/>-->
+		<mapping class ="com.vikrant.onetomany.Human"/>
+		<mapping class ="com.vikrant.onetomany.MobileNumber"/>
 		 
 		<!--In case mapping is done in xml-->
 		<!--<mapping resource="/in/sp/resources/student.hbm.xml" />-->
