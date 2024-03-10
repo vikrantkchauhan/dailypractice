@@ -17,9 +17,10 @@ nate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configur
 		<mapping class ="com.vikrant.embeddable.Student" />
 		<mapping  class ="com.vikrant.onetoone.Answers"/>
 		<mapping  class ="com.vikrant.onetoone.Questions"/>-->
-		<mapping class ="com.vikrant.onetomany.Human"/>
-		<mapping class ="com.vikrant.onetomany.MobileNumber"/>
-		 
+		<!--<mapping class ="com.vikrant.onetomany.Human"/>
+		<mapping class ="com.vikrant.onetomany.MobileNumber"/>-->
+		<mapping class="com.vikrant.manytomany.Employee" />
+		<mapping class="com.vikrant.manytomany.Project" />
 		<!--In case mapping is done in xml-->
 		<!--<mapping resource="/in/sp/resources/student.hbm.xml" />-->
 	</session-factory>
