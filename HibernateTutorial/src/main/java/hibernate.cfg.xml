@@ -10,9 +10,14 @@ nate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configur
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="hbm2ddl.auto">create</property> <!--if it is set to create then it will create the new table evertime-->
 		<property name="show_sql">true</property>
-		<property name="format_sql">true</property>
+		<property name="format_sql">false</property>
 		<!--Telling the hidernate to map this object to db-->
-		<mapping class ="com.vikrant.Employee"/>
+		<mapping class ="com.vikrant.basic.Employee"/>
+		<mapping class ="com.vikrant.basic.Address" />
+		<mapping class ="com.vikrant.embeddable.Student" />
+		<mapping  class ="com.vikrant.onetoone.Answers"/>
+		<mapping  class ="com.vikrant.onetoone.Questions"/>
+		 
 		<!--In case mapping is done in xml-->
 		<!--<mapping resource="/in/sp/resources/student.hbm.xml" />-->
 	</session-factory>
