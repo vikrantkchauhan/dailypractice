@@ -1,0 +1,19 @@
+<!--Using th dtd>-->
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hiber
+nate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/hibernate</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hbm2ddl.auto">create</property> <!--if it is set to create then it will create the new table evertime-->
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+		<!--Telling the hidernate to map this object to db-->
+		<mapping class ="com.vikrant.Employee"/>
+		<!--In case mapping is done in xml-->
+		<!--<mapping resource="/in/sp/resources/student.hbm.xml" />-->
+	</session-factory>
+</hibernate-configuration>
