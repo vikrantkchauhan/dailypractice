@@ -2,7 +2,9 @@ package com.vikrant.onetomany;
 
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
@@ -21,7 +23,7 @@ public class Human {
 		return "Human [id=" + id + ", name=" + name + ", mob=" + mob + "]";
 	}
 
-	@OneToMany(mappedBy = "human")
+	@OneToMany(mappedBy = "human" , fetch = FetchType.EAGER,cascade = CascadeType.ALL)
 	private List<MobileNumber> mob;
 
 	public void setMob(List<MobileNumber> mob) {
