@@ -1,0 +1,17 @@
+Arrays:
+
+
+1. Remove all the even elements from the array.
+2. Reverse an array
+3. Maximum element of a array
+5. SecondMaximum element of array
+6. Minimum element of array
+7. SecondMinimum element of array
+8. Move zeros to end using extra memory usage
+9. Move zeros to end two pointers.
+10. Resize array
+11. Find missing element of a array of size n-1 having elements from 1 to n.
+12. Find the first three greatest element.
+13. Rearrange array such that even positioned are greater than odd
+14. Rearrange an array in maximum minimum form using Two Pointer Technique
+15. Segregate even and odd numbers in order od entry of array.
