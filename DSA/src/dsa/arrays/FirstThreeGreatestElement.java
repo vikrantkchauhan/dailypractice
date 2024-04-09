@@ -2,7 +2,7 @@ package dsa.arrays;
 
 public class FirstThreeGreatestElement {
 	
-  static int[] arr = {1,2,7,9,6,10};
+  static int[] arr = {8,2,7,9,6,10};
   
   static void threeGreatest(int[] arr) {
 	  
